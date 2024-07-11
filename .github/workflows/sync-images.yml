@@ -42,9 +42,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-<<<<<<< HEAD:.github/workflows/sync-images.yml
         skopeo copy docker://lengyue233/fish-speech:v1.1.2 docker://g-vduf6304-docker.pkg.coding.net/test/new/fish-speech:v1.1.2
-=======
-        skopeo copy docker://docker.io/sonarqube:lts docker://g-vduf6304-docker.pkg.coding.net/test/new/sonarqube:lts 
- 
->>>>>>> e0d848c105cfe558749b73a41e6c14a346585bfb:.github/workflows/sync-images-dockerHub-example..yml
